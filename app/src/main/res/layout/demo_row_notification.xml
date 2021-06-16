@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingTop="13dp">
+
+    <TextView
+        android:id="@+id/timestamp"
+        style="@style/chat_text_date_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="2020-09-25 17:47" />
+
+    <RelativeLayout
+        android:id="@+id/bubble"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_chat_activity"
+        android:layout_marginRight="10dp">
+
+        <TextView
+            android:id="@+id/tv_chatcontent"
+            style="@style/chat_text_date_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dip"
+            android:layout_marginRight="8dip"
+            android:gravity="center"
+            android:minHeight="40dp"
+            android:padding="8dp"
+            android:textColor="#ff999999"
+            android:textSize="14sp"
+            tools:text="你们已经成为好友，开始聊天吧" />
+
+    </RelativeLayout>
+
+</LinearLayout>
